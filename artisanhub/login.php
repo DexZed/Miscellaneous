@@ -1,6 +1,8 @@
 <?php
 
 require_once('conn.php');
+require_once('mail.php');
+
 
 session_start();
 
@@ -44,14 +46,7 @@ if (isset($_SERVER["REQUEST_METHOD"]) && $_SERVER["REQUEST_METHOD"] == "POST") {
         $emailErr = "Invalid email format";
     }
 
-    function valid_email($address): bool
-    {
-        if (preg_match('/^[a-zA-Z0-9_.\-]+@[a-zA-Z0-9\-]+\.[a-zA-Z0-9\-.]+$/', $address)) {
-            return true;
-        } else {
-            return false;
-        }
-    }
+
 
     if (strlen($password) < 8) {
         $passwordErr = "Password must be at least 8 characters long";
@@ -87,6 +82,31 @@ if (isset($_SERVER["REQUEST_METHOD"]) && $_SERVER["REQUEST_METHOD"] == "POST") {
     }
 }
 
+
+$fromAddress = 'mailtrap@demomailtrap.com';
+$fromName = 'Artisan Hub';
+$toAddress = $email;
+$templateUuid = 'e7ac2adc-3e72-4a40-b9b8-3cf1dd48a5b5';
+$templateVariables = [
+    'user_email' => $email,
+    'pass_reset_link' => 'http://127.0.0.1/artisanhub/login.php'
+];
+
+if (valid_email($email)) {
+    $response = sendMailtrapEmail($fromAddress, $fromName, $toAddress, $templateUuid, $templateVariables);
+    $responseRedirect = mailRedirect($fromAddress, $fromName, $toAddress, $templateUuid, $templateVariables);
+}
+
+
+//var_dump($response);
+function valid_email($address): bool
+{
+    if (preg_match('/^[a-zA-Z0-9_.\-]+@[a-zA-Z0-9\-]+\.[a-zA-Z0-9\-.]+$/', $address)) {
+        return true;
+    } else {
+        return false;
+    }
+}
 function test_input($data): string
 {
     $data = trim($data);
