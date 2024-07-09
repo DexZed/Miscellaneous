@@ -1,0 +1,127 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    color: #0d1321;
+  }
+  
+  .header {
+    align-self: center;
+    display: flex;
+    width: 100%;
+    max-width: 1140px;
+    gap: 20px;
+    padding: 0 20px;
+  }
+  
+  @media (max-width: 991px) {
+    .header {
+      max-width: 100%;
+      flex-wrap: wrap;
+    }
+  }
+  
+  .name {
+    flex-grow: 1;
+    margin: auto 0;
+    font: 800 28px 'Azeret Mono', sans-serif;
+  }
+  
+  .download-button {
+    display: flex;
+    justify-content: center;
+    border-radius: 8px;
+    border: 1px solid rgba(13, 19, 33, 1);
+    text-align: center;
+    padding: 17px 24px;
+    font: 600 20px 'Azeret Mono', sans-serif;
+  }
+  
+  @media (max-width: 991px) {
+    .download-button {
+      padding: 0 20px;
+    }
+  }
+  
+  .content-section {
+    display: flex;
+    flex-direction: column;
+    background: url('') lightgray 50% / cover no-repeat;
+    overflow: hidden;
+    position: relative;
+    min-height: 652px;
+    margin-top: 36px;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    padding: 26px 80px 45px;
+  }
+  
+  @media (max-width: 991px) {
+    .content-section {
+      max-width: 100%;
+      padding: 0 20px;
+    }
+  }
+  
+  .background-image {
+    position: absolute;
+    inset: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+  
+  .profile-image {
+    aspect-ratio: 1;
+    object-fit: auto;
+    object-position: center;
+    width: 240px;
+    max-width: 100%;
+  }
+  
+  .quote {
+    position: relative;
+    margin-top: 32px;
+    width: 998px;
+    font: 800 48px/68px 'Azeret Mono', -apple-system, Roboto, Helvetica, sans-serif;
+  }
+  
+  @media (max-width: 991px) {
+    .quote {
+      max-width: 100%;
+      font-size: 40px;
+      line-height: 63px;
+    }
+  }
+  
+  .description {
+    position: relative;
+    margin-top: 24px;
+    width: 852px;
+    font: 400 16px/26px 'Azeret Mono', -apple-system, Roboto, Helvetica, sans-serif;
+  }
+  
+  @media (max-width: 991px) {
+    .description {
+      max-width: 100%;
+    }
+  }
+  
+  .contact-button {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    border-radius: 8px;
+    background-color: #0d1321;
+    margin-top: 32px;
+    color: #fff;
+    padding: 21px 24px;
+    font: 600 20px 'Azeret Mono', sans-serif;
+  }
+  
+  @media (max-width: 991px) {
+    .contact-button {
+      padding: 0 20px;
+    }
+  }
