@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="WEB_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/artisanhub/vendor/clue/stream-filter" />
+      <excludeFolder url="file://$MODULE_DIR$/artisanhub/vendor/composer" />
+      <excludeFolder url="file://$MODULE_DIR$/artisanhub/vendor/doctrine/lexer" />
+      <excludeFolder url="file://$MODULE_DIR$/artisanhub/vendor/egulias/email-validator" />
+      <excludeFolder url="file://$MODULE_DIR$/artisanhub/vendor/nyholm/psr7" />
+      <excludeFolder url="file://$MODULE_DIR$/artisanhub/vendor/php-http/client-common" />
+      <excludeFolder url="file://$MODULE_DIR$/artisanhub/vendor/php-http/discovery" />
+      <excludeFolder url="file://$MODULE_DIR$/artisanhub/vendor/php-http/httplug" />
+      <excludeFolder url="file://$MODULE_DIR$/artisanhub/vendor/php-http/message" />
+      <excludeFolder url="file://$MODULE_DIR$/artisanhub/vendor/php-http/message-factory" />
+      <excludeFolder url="file://$MODULE_DIR$/artisanhub/vendor/php-http/promise" />
+      <excludeFolder url="file://$MODULE_DIR$/artisanhub/vendor/psr/container" />
+      <excludeFolder url="file://$MODULE_DIR$/artisanhub/vendor/psr/http-client" />
+      <excludeFolder url="file://$MODULE_DIR$/artisanhub/vendor/psr/http-factory" />
+      <excludeFolder url="file://$MODULE_DIR$/artisanhub/vendor/psr/http-message" />
+      <excludeFolder url="file://$MODULE_DIR$/artisanhub/vendor/psr/log" />
+      <excludeFolder url="file://$MODULE_DIR$/artisanhub/vendor/railsware/mailtrap-php" />
+      <excludeFolder url="file://$MODULE_DIR$/artisanhub/vendor/symfony/deprecation-contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/artisanhub/vendor/symfony/http-client" />
+      <excludeFolder url="file://$MODULE_DIR$/artisanhub/vendor/symfony/http-client-contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/artisanhub/vendor/symfony/mime" />
+      <excludeFolder url="file://$MODULE_DIR$/artisanhub/vendor/symfony/options-resolver" />
+      <excludeFolder url="file://$MODULE_DIR$/artisanhub/vendor/symfony/polyfill-intl-idn" />
+      <excludeFolder url="file://$MODULE_DIR$/artisanhub/vendor/symfony/polyfill-intl-normalizer" />
+      <excludeFolder url="file://$MODULE_DIR$/artisanhub/vendor/symfony/polyfill-mbstring" />
+      <excludeFolder url="file://$MODULE_DIR$/artisanhub/vendor/symfony/polyfill-php72" />
+      <excludeFolder url="file://$MODULE_DIR$/artisanhub/vendor/symfony/polyfill-php80" />
+      <excludeFolder url="file://$MODULE_DIR$/artisanhub/vendor/symfony/service-contracts" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
