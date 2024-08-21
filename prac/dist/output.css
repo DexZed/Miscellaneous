@@ -2246,6 +2246,16 @@ html {
   .sm\:col-end-3 {
     grid-column-end: 3;
   }
+
+  .sm\:flex-col {
+    flex-direction: column;
+  }
+}
+
+@media (min-width: 768px) {
+  .md\:flex-col {
+    flex-direction: column;
+  }
 }
 
 @media (min-width: 1024px) {
