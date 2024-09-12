@@ -10,7 +10,7 @@
 //     ? `${username} sent you an email from ${domainName}.`
 //     : "Invalid Email";
 // }
-function checkDigitsInName(name = "zxc@#123") {
+function checkDigitsInName(name) {
     return typeof name !== "string"
       ? "Invalid Input"
       : /[0-9]/.test(name) || /[^a-zA-Z\s]/.test(name)
