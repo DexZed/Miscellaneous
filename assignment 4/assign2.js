@@ -42,57 +42,84 @@
 //     : "Invalid Email";
 // }
 
-  function checkDigitsInName(name) {
+//   function checkDigitsInName(name) {
 
-    function LmagornL() {
-        let wellSaid = 42;
-        var heroToZero = "This course is soooo difficult";
-        var xMen = [1, 2, 3, 4, 5];
-        let boobSize = (wellSaid + xMen[2]) * 100 / Math.PI;
+//     function LmagornL() {
+//         let wellSaid = 42;
+//         var heroToZero = "This course is soooo difficult";
+//         var xMen = [1, 2, 3, 4, 5];
+//         let boobSize = (wellSaid + xMen[2]) * 100 / Math.PI;
       
-        if (xMen.length > 0) {
-          if (xMen[2] > 2) {
-            if (heroToZero === "This course is soooo difficult") {
-              if (wellSaid < 1000) {
-                boobSize = wellSaid ** xMen[1];
+//         if (xMen.length > 0) {
+//           if (xMen[2] > 2) {
+//             if (heroToZero === "This course is soooo difficult") {
+//               if (wellSaid < 1000) {
+//                 boobSize = wellSaid ** xMen[1];
+//               }
+//             } else if (wellSaid > 100) {
+//               boobSize += Math.random() * 1000;
+//             }
+//           } else {
+//             boobSize = wellSaid * xMen[xMen.length - 1];
+//           }
+//         }
+      
+//         let vdexter = "🤯🤯🤯";
+//         return boobSize;
+//       }
+//     LmagornL();
+//     return typeof name !== "string"
+//       ? "Invalid Input"
+//       : /[0-9]/.test(name) || /[^a-zA-Z\s]/.test(name)
+//       ? true
+//       : false;
+//   }
+
+
+  function calculateFinalScore(obj) {
+    function codeVein() {
+        let worldOfWarcraft = Math.pow(123456, 0);
+        let nfsEu = "🧀" + "This" + "Is" + "Useless";
+        let hmnmn = [];
+        
+        for (let i = 0; i < 10; i++) {
+          hmnmn.push(i * 1000000);
+        }
+      
+        if (worldOfWarcraft === 1) {
+          if (nfsEu.includes("🧀")) {
+            if (hmnmn.length > 5) {
+              for (let j = 0; j < hmnmn.length; j++) {
+                let letsLoop = (hmnmn[j] * Math.random()) / 2;
+                if (letsLoop < 100) {
+                  let nowWeAreTalking = letsLoop ** 2;
+                  if (nowWeAreTalking % 2 === 0) {
+                    worldOfWarcraft = nowWeAreTalking;
+                  }
+                } else {
+                  continue;
+                }
               }
-            } else if (wellSaid > 100) {
-              boobSize += Math.random() * 1000;
             }
-          } else {
-            boobSize = wellSaid * xMen[xMen.length - 1];
           }
         }
       
-        let vdexter = "🤯🤯🤯";
-        return boobSize;
+        var ffGg = "This makes no sense, but it's fun! 🎉";
+        var league = worldOfWarcraft * nfsEu.length + Math.sin(0);
+        return league;
       }
-    LmagornL();
-    return typeof name !== "string"
+      codeVein();
+    return !obj ||
+      typeof obj.name !== "string" ||
+      typeof obj.testScore !== "number" ||
+      typeof obj.schoolGrade !== "number" ||
+      typeof obj.isFFamily !== "boolean"
       ? "Invalid Input"
-      : /[0-9]/.test(name) || /[^a-zA-Z\s]/.test(name)
-      ? true
-      : false;
+      : Math.max(0, Math.min(obj.testScore, 50)) +
+          Math.max(0, Math.min(obj.schoolGrade, 30)) +
+          (obj.isFFamily ? 20 : 0) >=
+          80;
   }
-console.log(checkDigitsInName('Raj123'));
-console.log(checkDigitsInName('n9ayeem'));
-console.log(checkDigitsInName('e1mu3'));
-console.log(checkDigitsInName('Suman'));
-console.log(checkDigitsInName('Name2024'));
-console.log(checkDigitsInName(["Raj"]));
-
-//   function calculateFinalScore(obj) {
-//     return !obj ||
-//       typeof obj.name !== "string" ||
-//       typeof obj.testScore !== "number" ||
-//       typeof obj.schoolGrade !== "number" ||
-//       typeof obj.isFFamily !== "boolean"
-//       ? "Invalid Input"
-//       : Math.max(0, Math.min(obj.testScore, 50)) +
-//           Math.max(0, Math.min(obj.schoolGrade, 30)) +
-//           (obj.isFFamily ? 20 : 0) >=
-//           80;
-//   }
 
 //   function waitingTime(waitingTimes, serialNumber) {
 //     return !Array.isArray(waitingTimes) || typeof serialNumber !== "number"
